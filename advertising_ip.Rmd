@@ -1,0 +1,47 @@
+---
+title: "ADVERTISING ANALYSIS IN R "
+author: "week_12_R"
+date: "5/20/2021"
+output: html_document
+---
+#LOading the dataset
+```{R}
+advertising_dataset <- read.csv("C:/Users/HP/Downloads/advertising.csv")
+```
+
+#Previewing the dataset
+```{R}
+summary(advertising_dataset)
+```
+
+```{R}
+#print first 10 rows of mydata
+head(advertising_dataset, n=10)
+```
+
+```{R}
+# print last 5 rows of mydata
+tail(advertising_dataset, n=5)
+```
+
+```{R}
+str(advertising_dataset)
+dim(advertising_dataset)
+class(advertising_dataset)
+```
+###Data cleaning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
